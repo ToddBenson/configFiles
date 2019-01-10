@@ -169,3 +169,13 @@ ssh root@targetIP                                SSH to server on standard port
 ssh root@targetIP -p 2222                        SSH to server on non-stardard port (2222)
 ssh root@targetIP -X
 ------------------------------------------------------------------------------------------------------
+
+# CLI Tools
+setup:
+ - Cloud Foundry                  $ cf login [-a API_URL] [-u USERNAME] [-p PASSWORD] [-o ORG] [-s SPACE]
+ - Concourse                      $ fly --target example login --team-name my-team --concourse-url https://ci.example.com
+ - BOSH                           $ 
+ - UAAC
+ - Docker
+ - GitHub
+ - AWS
