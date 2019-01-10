@@ -3,6 +3,8 @@ service postgresql start
 msfdb init
 wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
 echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list 
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/sources.list.d/docker.list
 apt-get update
 apt-get upgrade
 apt-get install -y mtr
@@ -13,6 +15,7 @@ apt-get install -y nload
 apt-get install -y ipcalc
 apt-get install -y htop
 apt-get install -y cf-cli
+apt-get install -y docker-ce
 git clone --recursive git://github.com/magnars/.emacs.d.git ~/.emacs.d
 git clone https://github.com/ToddBenson/FileUploadTests.git /opt/fileuploadtestfiles
 git clone https://github.com/danielmiessler/SecLists.git /opt/seclist
@@ -29,7 +32,6 @@ git clone https://github.com/Alfresco/aws-cis-security-benchmarks.git
 pip install awscli
 pip install awsscout2
 gem install cf-uaac
-# CF-cli
 # Concourse-cli
 wget https://github.com/concourse/concourse/releases/download/v4.2.2/fly_linux_amd64
 chmod +x ./fly_linux_amd64
@@ -40,7 +42,6 @@ wget https://github.com/cloudfoundry/bosh-cli/releases/download/v5.4.0/bosh-cli-
 chmod +x ./bosh-cli-5.4.0-linux-amd64 
 mv ./bosh-cli-5.4.0-linux-amd64 /usr/local/bin/bosh
 bosh -v
-# Docker-cli
 cd /opt/pineapple
 wget wifipineapple.com/wp6.sh
 chmod +x /opt/pineapple/wp6.sh
