@@ -1,0 +1,31 @@
+Programming the Keysy remote
+1. Place the Keysy remote on top of the keycard/keyfob you wish to copy.
+2. Press and hold the button you wish to program for 6 seconds until the LED on
+the Keysy remote blinks red. Release the button and center the blinking LED on
+the keycard/keyfob.
+3. If the LED turns GREEN you can now use Keysy remote as the keycard/keyfob
+or follow the How to make a duplicate section.
+4. If the LED turned AMBER flip the keycard/keyfob and repeat steps 1-3.
+5. If programming continues to fail (AMBER) move the Keysy remote to a
+different location on the keycard/keyfob and repeat steps 1-3.
+6. If programming continues to fail after multiple attempts the card may not
+be supported. Please contact support@tinylabs.io to troubleshoot.
+
+Using the Keysy remote as keycard/keyfob
+1. To select the desired electronic key press and release the previously
+programmed button.
+2. Hold the Keysy remote parallel to the RFID reader (within a few centimeters).
+The RFID reader should blink and/or beep when the electronic key has
+successfully been read.
+3. If the Keysy remote fails to open the door see the section Keysy Remote
+
+How to make a duplicate keycard/keyfob
+1. Place the Keysy remote on top of the included rewritable keyfob.
+2. Make sure the LED is centered on top of the rewritable keyfob.
+3. Press the previously programmed button that you wish to duplicate 5 times.
+4. The RED LED will briefly blink as the rewritable keyfob is being programmed.
+5. After a short period of time, the Keysy remote will blink GREEN 3 times
+(success) or RED 3 times (failure).
+6. If programming fails, flip over the rewritable keyfob and repeat steps 1- 5 above.
+7. Once successful, the rewritable keyfob can be used just like the original keycard/
+keyfob.
