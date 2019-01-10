@@ -22,6 +22,14 @@ git clone https://github.com/hak5darren/USB-Rubber-Ducky.git /opt/ducky
 git clone https://github.com/troyhunt/PineappleSurprise.git /opt/pineapple
 git clone https://github.com/hak5/bashbunny-payloads.git /opt/bunny
 git clone https://github.com/1N3/Sn1per.git /opt/sniper
+git clone https://github.com/Alfresco/aws-cis-security-benchmarks.git
+pip install awscli
+pip install awsscout2
+gem install cf-uaac
+# CF-cli
+# Concourse-cli
+# BOSH-cli
+# Docker-cli
 cd /opt/pineapple
 wget wifipineapple.com/wp6.sh
 chmod +x /opt/pineapple/wp6.sh
