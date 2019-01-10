@@ -186,6 +186,8 @@ setup:
 
 https://help.github.com/articles/generating-a-new-gpg-key/
 https://help.github.com/articles/about-commit-signature-verification/#gpg-commit-signature-verification
+https://help.github.com/articles/managing-commit-signature-verification/
+https://gist.github.com/ankurk91/c4f0e23d76ef868b139f3c28bde057fc
 
 brew install gpg
 gpg
