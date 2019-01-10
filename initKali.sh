@@ -4,7 +4,6 @@ msfdb init
 wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
 echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list 
 apt-get update
-apt-get update
 apt-get upgrade
 apt-get install -y mtr
 apt-get install -y hexchat
@@ -13,7 +12,7 @@ apt-get install -y screen
 apt-get install -y nload
 apt-get install -y ipcalc
 apt-get install -y htop
-apt-get install cf-cli
+apt-get install -y cf-cli
 git clone --recursive git://github.com/magnars/.emacs.d.git ~/.emacs.d
 git clone https://github.com/ToddBenson/FileUploadTests.git /opt/fileuploadtestfiles
 git clone https://github.com/danielmiessler/SecLists.git /opt/seclist
